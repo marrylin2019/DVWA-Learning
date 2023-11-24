@@ -1,0 +1,97 @@
+{
+    "database": "dvwa",
+    "tables": [
+        "guestbook",
+        "users"
+    ],
+    "tables_info": [
+        {
+            "table": "guestbook",
+            "columns": [
+                "comment_id",
+                "comment",
+                "name"
+            ],
+            "record_nums": 1,
+            "records": [
+                {
+                    "comment_id": "1",
+                    "comment": "This is a test comment.",
+                    "name": "test"
+                }
+            ]
+        },
+        {
+            "table": "users",
+            "columns": [
+                "user_id",
+                "first_name",
+                "last_name",
+                "user",
+                "password",
+                "avatar",
+                "last_login",
+                "failed_login",
+                "cipher"
+            ],
+            "record_nums": 5,
+            "records": [
+                {
+                    "user_id": "1",
+                    "first_name": "admin",
+                    "last_name": "admin",
+                    "user": "admin",
+                    "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+                    "avatar": "http://192.168.73.130/hackable/users/admin.jpg",
+                    "last_login": "2023-11-24 11:40:09",
+                    "failed_login": "0",
+                    "cipher": "password"
+                },
+                {
+                    "user_id": "2",
+                    "first_name": "Gordon",
+                    "last_name": "Brown",
+                    "user": "gordonb",
+                    "password": "e99a18c428cb38d5f260853678922e03",
+                    "avatar": "http://192.168.73.130/hackable/users/gordonb.jpg",
+                    "last_login": "2023-11-24 11:40:09",
+                    "failed_login": "0",
+                    "cipher": "abc123"
+                },
+                {
+                    "user_id": "3",
+                    "first_name": "Hack",
+                    "last_name": "Me",
+                    "user": "1337",
+                    "password": "8d3533d75ae2c3966d7e0d4fcc69216b",
+                    "avatar": "http://192.168.73.130/hackable/users/1337.jpg",
+                    "last_login": "2023-11-24 11:40:09",
+                    "failed_login": "0",
+                    "cipher": "charley"
+                },
+                {
+                    "user_id": "4",
+                    "first_name": "Pablo",
+                    "last_name": "Picasso",
+                    "user": "pablo",
+                    "password": "0d107d09f5bbe40cade3de5c71e9e9b7",
+                    "avatar": "http://192.168.73.130/hackable/users/pablo.jpg",
+                    "last_login": "2023-11-24 11:40:09",
+                    "failed_login": "0",
+                    "cipher": "letmein"
+                },
+                {
+                    "user_id": "5",
+                    "first_name": "Bob",
+                    "last_name": "Smith",
+                    "user": "smithy",
+                    "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+                    "avatar": "http://192.168.73.130/hackable/users/smithy.jpg",
+                    "last_login": "2023-11-24 11:40:09",
+                    "failed_login": "0",
+                    "cipher": "password"
+                }
+            ]
+        }
+    ]
+}
